@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- bootsrap-links -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+        <!-- end-links -->
+
+        <!-- fontawesome -->
+        <script
+            src="https://kit.fontawesome.com/1df42cf205.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- end-fontawesome -->
+
+        <!-- css -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- end-css -->
+
+        <!-- icon -->
+        <link rel="icon" href="/asset/logo.png" />
+        <title>Layanan Kami</title>
+        <!-- end icon -->
+    </head>
+    <body>
+        <!-- emergency Banner -->
+        <div class="sticky-top bg-danger py-2 marquee-wrapper shadow-sm">
+            <marquee
+                behavior="scroll"
+                direction="left"
+                scrollamount="3"
+                class="text-dark"
+            >
+                <div
+                    class="container d-flex justify-content-between align-items-center text-white"
+                >
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Darurat? Hubungi: <strong>1221</strong></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-clock"></i>
+                        <span
+                            >Buka:
+                            <strong>Senin-Minggu 08:00-21:00</strong></span
+                        >
+                    </div>
+                </div>
+            </marquee>
+        </div>
+        <!-- end Emergency Banner -->
+
+        <!-- navbar -->
+        <nav
+            class="navbar navbar-expand-lg bg-white shadow border-bottom sticky-top"
+            style="top: 40px"
+        >
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img
+                        src="/asset/logo.png"
+                        alt="Logo Klinik"
+                        class="me-2 logo"
+                        style="height: 8vw; max-height: 80px"
+                    />
+                </a>
+                <button
+                    class="navbar-toggler border-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold active"
+                                href="index.html"
+                                >Beranda</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold"
+                                href="about.html"
+                                >Tentang Kami</a
+                            >
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle text-dark fw-semibold"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Layanan
+                            </a>
+                            <ul class="dropdown-menu" style="border: none">
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#Konsultasi"
+                                        >Konsultasi Dokter</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#pemeriksaan"
+                                        >Pemeriksaan Kesehatan</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#ugd"
+                                        >Layanan Gawat Darurat
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#apotek"
+                                        >Apotek dan Farmasi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#anak"
+                                        >Kesehatan Anak
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#ibu"
+                                        >Kesehatan Ibu Hamil
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#terapi"
+                                        >Terapi Kesehatan
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#gigi"
+                                        >Klinik Gigi
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold"
+                                href="healtharticles.html"
+                                >Artikel Kesehatan</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold"
+                                href="contact.html"
+                                >Hubungi Kami</a
+                            >
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a
+                                class="btn btn-primary rounded-pill px-3"
+                                href="services.html"
+                                >Daftar Online</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end-navbar -->
+
+        <!-- video utama -->
+        <section class="videoutama py-3">
+            <div class="container">
+                <div class="position-relative rounded overflow-hidden">
+                    <!-- Video -->
+                    <video
+                        autoplay
+                        muted
+                        loop
+                        playsinline
+                        class="w-100 d-block rounded"
+                    >
+                        <source
+                            src="asset/layanan/videolayanan.mp4"
+                            type="video/mp4"
+                        />
+                    </video>
+
+                    <!-- Overlay Teks -->
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center text-white"
+                        style="background-color: rgba(0, 0, 0, 0.5)"
+                    >
+                        <div
+                            class="text-center px-3 px-md-4"
+                            style="max-width: 720px"
+                        >
+                            <h1 class="display-5 fw-bold">
+                                Layanan Klinik Kami
+                            </h1>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Voluptatum officiis officia
+                                repudiandae mollitia vel impedit voluptas
+                                doloremque, vitae optio blanditiis, at ab,
+                                aliquam asperiores ad molestias ipsa id commodi
+                                rerum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end video utama -->
+
+        <!-- layanan -->
+        <section id="inilayanan">
+            <!-- Konsultasi Dokter -->
+            <div id="konsultasi" class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img
+                            src="/asset/layanan/layanan-1.jpg"
+                            class="img-fluid rounded"
+                            alt="Konsultasi Dokter"
+                        />
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <h2 class="text-primary">
+                            <i class="fa-solid fa-user-doctor me-2"></i
+                            >Konsultasi Dokter
+                        </h2>
+                        <p>
+                            Kami menyediakan layanan konsultasi dengan dokter
+                            umum maupun spesialis melalui sistem yang nyaman dan
+                            fleksibel. Anda bisa memilih untuk datang langsung
+                            ke rumah sakit atau menggunakan layanan
+                            telekonsultasi dari rumah.
+                        </p>
+                        <ul>
+                            <li>Dokter berpengalaman & profesional</li>
+                            <li>Jadwal fleksibel & sistem pendaftaran cepat</li>
+                            <li>Telekonsultasi dengan rekam medis digital</li>
+                            <li>Pemeriksaan lanjutan jika diperlukan</li>
+                        </ul>
+
+                        <button
+                            class="btn btn-primary daftarBtn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalDaftar"
+                            data-layanan="Konsultasi Dokter"
+                        >
+                            Daftar Layanan Ini
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5" />
+
+            <!-- Pemeriksaan Kesehatan -->
+            <div id="pemeriksaan" class="container py-5">
+                <div class="row align-items-center flex-md-row-reverse">
+                    <!-- Kolom Gambar -->
+                    <div class="col-md-6">
+                        <img
+                            src="/asset/layanan/layanan-2.jpg"
+                            class="img-fluid rounded"
+                            alt="Pemeriksaan Kesehatan"
+                        />
+                    </div>
+
+                    <div class="col-md-6 mt-3">
+                        <h2 class="text-primary">
+                            <i class="fa-solid fa-clipboard-list me-2"></i
+                            >Pemeriksaan Kesehatan
+                        </h2>
+                        <p>
+                            Pemeriksaan kesehatan menyeluruh sangat penting
+                            untuk mengetahui kondisi tubuh secara berkala. Kami
+                            menyediakan paket medical check-up untuk individu
+                            dan perusahaan.
+                        </p>
+                        <ul>
+                            <li>
+                                Pemeriksaan darah, urin, EKG, rontgen, dan USG
+                            </li>
+                            <li>Paket basic hingga premium</li>
+                            <li>Hasil digital & bisa konsultasi lanjutan</li>
+                            <li>Deteksi dini berbagai penyakit</li>
+                        </ul>
+
+                        <button
+                            type="button"
+                            class="btn btn-primary daftarBtn"
+                            data-layanan="Pemeriksaan Kesehatan"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalDaftar"
+                        >
+                            Daftar Layanan Ini
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5" />
+
+            <!-- Gawat Darurat -->
+            <div id="ugd" class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img
+                            src="/asset/layanan/layanan-3.jpg"
+                            class="img-fluid rounded"
+                            alt="Layanan Gawat Darurat"
+                        />
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <h2 class="text-primary">
+                            <i class="fa-solid fa-truck-medical me-2"></i
+                            >Layanan Gawat Darurat (UGD)
+                        </h2>
+                        <p>
+                            UGD kami siap melayani 24 jam dengan tenaga medis
+                            siaga dan fasilitas lengkap untuk menangani kondisi
+                            darurat seperti kecelakaan, serangan jantung,
+                            stroke, dan sebagainya.
+                        </p>
+                        <ul>
+                            <li>Ambulans cepat tanggap</li>
+                            <li>Penanganan trauma & kritis</li>
+                            <li>Tim UGD profesional dan berpengalaman</li>
+                            <li>
+                                Tersedia fasilitas radiologi & laboratorium
+                                darurat
+                            </li>
+                        </ul>
+
+                        <button
+                            class="btn btn-primary daftarBtn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalDaftar"
+                            data-layanan="Layanan Gawat Darurat"
+                        >
+                            Daftar Layanan Ini
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5" />
+
+            <!-- Apotek dan Farmasi -->
+            <div id="apotek" class="container py-5">
+                <div class="row align-items-center flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <img
+                            src="/asset/layanan/layanan-4.jpg"
+                            class="img-fluid rounded"
+                            alt="Apotek dan Farmasi"
+                        />
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <h2 class="text-primary">
+                            <i class="fa-solid fa-capsules me-2"></i>Apotek dan
+                            Farmasi
+                        </h2>
+                        <p>
+                            Apotek kami menyediakan obat-obatan lengkap dan
+                            berkualitas. Dengan sistem terintegrasi bersama
+                            layanan dokter, Anda bisa langsung menebus resep
+                            dengan mudah dan cepat.
+                        </p>
+                        <ul>
+                            <li>Obat generik dan paten</li>
+                            <li>Konsultasi langsung dengan apoteker</li>
+                            <li>Suplemen, alat kesehatan, vitamin</li>
+                            <li>Pelayanan cepat & sistem digital</li>
+                        </ul>
+                        <button
+                            class="btn btn-primary daftarBtn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalDaftar"
+                            data-layanan="Apotek dan Farmasi"
+                        >
+                            Daftar Layanan Ini
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5" />
+
+            <!-- kesehatan anak -->
+            <div id="anak" class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img
+                            src="/asset/layanan/layanan-5.png"
+                            class="img-fluid rounded"
+                            alt="Layanan Kesehatan Anak"
+                        />
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <h2 class="text-primary">
+                            <i class="fa-solid fa-baby me-2"></i>Layanan
+                            Kesehatan Anak
+                        </h2>
+                        <p>
+                            Pelayanan kesehatan khusus untuk anak-anak, termasuk
+                            imunisasi, pemantauan tumbuh kembang, dan pengobatan
+                            penyakit umum anak.
+                        </p>
+                        <ul>
+                            <li>Imunisasi dan vitamin anak</li>
+                            <li>Konsultasi tumbuh kembang</li>
+                            <li>Dokter spesialis anak berpengalaman</li>
+                        </ul>
+                        <button
+                            class="btn btn-primary daftarBtn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalDaftar"
+                            data-layanan="Layanan Kesehatan Anak"
+                        >
+                            Daftar Layanan Ini
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5" />
+
+            <!-- Kesehatan ibu hamil -->
+            <div id="ibu" class="container py-5">
+                <div class="row align-items-center flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <img
+                            src="/asset/layanan/layanan-6.png"
+                            class="img-fluid rounded"
+                            alt="Kesehatan Ibu & Kehamilan"
+                        />
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <h2 class="text-primary">
+                            <i class="fa-solid fa-female me-2"></i>Kesehatan Ibu
+                            & Kehamilan
+                        </h2>
+                        <p>
+                            Layanan kesehatan komprehensif untuk ibu hamil dan
+                            menyusui, termasuk pemeriksaan kehamilan rutin dan
+                            edukasi persalinan.
+                        </p>
+                        <ul>
+                            <li>Pemeriksaan kehamilan rutin</li>
+                            <li>USG 2D/3D & konsultasi kandungan</li>
+                            <li>Kelas edukasi kehamilan dan persalinan</li>
+                        </ul>
+                        <button
+                            class="btn btn-primary daftarBtn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalDaftar"
+                            data-layanan="Kesehatan Ibu & Kehamilan"
+                        >
+                            Daftar Layanan Ini
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5" />
+
+            <!-- terapi -->
+            <div id="terapi" class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img
+                            src="/asset/layanan/layanan-7.png"
+                            class="img-fluid rounded"
+                            alt="Rehabilitasi Medik / Fisioterapi"
+                        />
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <h2 class="text-primary">
+                            <i class="fa-solid fa-dumbbell me-2"></i
+                            >Rehabilitasi Medik / Fisioterapi
+                        </h2>
+                        <p>
+                            Membantu pemulihan fungsi gerak akibat cedera,
+                            stroke, atau pasca-operasi dengan terapi fisik
+                            profesional.
+                        </p>
+                        <ul>
+                            <li>Terapi stroke & cedera olahraga</li>
+                            <li>Alat terapi modern</li>
+                            <li>Ahli fisioterapi bersertifikat</li>
+                        </ul>
+                        <button
+                            class="btn btn-primary daftarBtn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalDaftar"
+                            data-layanan="Rehabilitasi Medik / Fisioterapi"
+                        >
+                            Daftar Layanan Ini
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5" />
+
+            <!-- gigi -->
+            <div id="gigi" class="container py-5">
+                <div class="row align-items-center flex-md-row-reverse">
+                    <div class="col-md-6">
+                        <img
+                            src="/asset/layanan/layanan-8.png"
+                            class="img-fluid rounded"
+                            alt="Klinik Gigi & Mulut"
+                        />
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <h2 class="text-primary">
+                            <i class="fa-solid fa-tooth me-2"></i>Klinik Gigi &
+                            Mulut
+                        </h2>
+                        <p>
+                            Menyediakan perawatan dan pencegahan masalah gigi
+                            dan mulut, mulai dari pembersihan hingga tindakan
+                            bedah minor.
+                        </p>
+                        <ul>
+                            <li>Scaling, tambal, dan cabut gigi</li>
+                            <li>Konsultasi ortodontik dan estetik</li>
+                            <li>Dokter gigi berpengalaman & ramah</li>
+                        </ul>
+                        <button
+                            class="btn btn-primary daftarBtn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalDaftar"
+                            data-layanan="Klinik Gigi & Mulut"
+                        >
+                            Daftar Layanan Ini
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end layanan -->
+
+        <!-- form popup -->
+        <section class="container">
+            <!-- Modal -->
+            <div
+                class="modal fade"
+                id="modalDaftar"
+                tabindex="-1"
+                aria-labelledby="modalDaftarLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <form id="formDaftar">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalDaftarLabel">
+                                    Form Pendaftaran Layanan
+                                </h5>
+                                <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                ></button>
+                            </div>
+                            <div class="modal-body">
+                                <input type="hidden" id="layananTerpilih" />
+
+                                <div class="mb-3">
+                                    <label class="form-label"
+                                        >Layanan yang Dipilih</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="layananDisplay"
+                                        disabled
+                                    />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="nama" class="form-label"
+                                        >Nama Lengkap</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="nama"
+                                        required
+                                    />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="kontak" class="form-label"
+                                        >Nomor HP</label
+                                    >
+                                    <input
+                                        type="tel"
+                                        class="form-control"
+                                        id="kontak"
+                                        required
+                                    />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="pesan" class="form-label"
+                                        >Keterangan Tambahan</label
+                                    >
+                                    <textarea
+                                        class="form-control"
+                                        id="pesan"
+                                        rows="3"
+                                    ></textarea>
+                                </div>
+
+                                <div
+                                    id="notifikasi"
+                                    class="alert alert-success d-none"
+                                    role="alert"
+                                >
+                                    Terima kasih! Anda telah terdaftar untuk
+                                    <strong id="layananNotif"></strong>. Nomor
+                                    Tiket Anda: <strong id="tiketId"></strong>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-primary">
+                                    Kirim
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Paspor Layanan -->
+            <div
+                class="modal fade"
+                id="modalPaspor"
+                tabindex="-1"
+                aria-labelledby="modalPasporLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content border-success">
+                        <div class="modal-header bg-success text-white">
+                            <h5 class="modal-title" id="modalPasporLabel">
+                                Antrian Anda
+                            </h5>
+                        </div>
+                        <div
+                            id="pasporContent"
+                            class="bg-white text-dark p-4 rounded-3 shadow-sm"
+                        >
+                            <div class="mb-2">
+                                <strong>Nama:</strong>
+                                <div id="pasporNama" class="ps-2">-</div>
+                            </div>
+                            <div class="mb-2">
+                                <strong>Kontak:</strong>
+                                <div id="pasporKontak" class="ps-2">-</div>
+                            </div>
+                            <div class="mb-2">
+                                <strong>Layanan:</strong>
+                                <div id="pasporLayanan" class="ps-2">-</div>
+                            </div>
+                            <div class="mb-3">
+                                <strong>Nomor Tiket:</strong>
+                                <div
+                                    id="pasporTiket"
+                                    class="ps-2 fw-semibold text-primary"
+                                >
+                                    -
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <img
+                                    id="qrCode"
+                                    src=""
+                                    alt="QR Code"
+                                    style="height: 120px"
+                                />
+                            </div>
+
+                            <div
+                                class="alert alert-success text-center mt-3 mb-0"
+                            >
+                                Anda telah berhasil mendaftar.<br />
+                                Tunjukkan tiket atau QR ini saat datang ke
+                                layanan.
+                            </div>
+                            <div class="text-end mt-3">
+                                <button
+                                    class="btn btn-outline-secondary"
+                                    data-bs-dismiss="modal"
+                                >
+                                    Selesai
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end form popup -->
+
+        <!-- footer -->
+        <footer class="bg-light text-dark py-5 mt-5 border-top shadow-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <img
+                            src="/asset/logo.png"
+                            alt="Logo"
+                            class="mb-3"
+                            style="height: 60px"
+                        />
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Tenetur deleniti saepe consequatur dolor,
+                            suscipit magni reiciendis eum mollitia.
+                        </p>
+                        <div class="social-icons d-flex gap-3">
+                            <a
+                                href="#"
+                                class="text-dark fs-5"
+                                aria-label="Facebook"
+                            >
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="text-dark fs-5"
+                                aria-label="Instagram"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="text-dark fs-5"
+                                aria-label="Twitter"
+                            >
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Link Navigasi -->
+                    <div class="col-md-2 mb-4">
+                        <h5 class="text-dark mb-3">Link</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="index.html"
+                                    >Beranda</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="about.html"
+                                    >Tentang Kami</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="services.html"
+                                    >Layanan</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="healtharticles.html"
+                                    >Artikel Kesehatan</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block"
+                                    href="contact.html"
+                                    >Hubungi Kami</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <h5 class="text-dark mb-3">Kontak Kami</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-2">
+                                <i class="fa-solid fa-location-dot me-2"></i>
+                                Jl. Apatuh No. 123, Tengaran
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa-solid fa-phone me-2"></i>
+                                1221
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa-solid fa-envelope me-2"></i>
+                                Ridzz@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <h5 class="text-dark mb-3">Jam Operasional</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-2">Senin–Jumat: 08.00 – 21.00</li>
+                            <li class="mb-2">Sabtu–Minggu: 09.00 – 17.00</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary mt-3"
+                            >Hubungi Kami</a
+                        >
+                    </div>
+                </div>
+
+                <hr class="my-4" />
+                <div class="text-center text-muted small">
+                    &copy; 2025 Ridzz Medika. Seluruh hak cipta dilindungi.
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+
+        <!-- link js -->
+        <script src="script.js"></script>
+        <!-- end link js -->
+    </body>
+</html>

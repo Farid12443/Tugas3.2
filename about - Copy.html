@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- bootsrap-links -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+        <!-- end-links -->
+
+        <!-- fontawesome -->
+        <script
+            src="https://kit.fontawesome.com/1df42cf205.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- end-fontawesome -->
+
+        <!-- css -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- end-css -->
+
+        <!-- icon -->
+        <link rel="icon" href="/asset/logo.png" />
+        <title>Tentang Kami</title>
+        <!-- end icon -->
+    </head>
+    <body>
+        <!-- emergency Banner -->
+        <div class="sticky-top bg-danger py-2 marquee-wrapper shadow-sm">
+            <marquee
+                behavior="scroll"
+                direction="left"
+                scrollamount="3"
+                class="text-dark"
+            >
+                <div
+                    class="container d-flex justify-content-between align-items-center text-white"
+                >
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Darurat? Hubungi: <strong>1221</strong></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-clock"></i>
+                        <span
+                            >Buka:
+                            <strong>Senin-Minggu 08:00-21:00</strong></span
+                        >
+                    </div>
+                </div>
+            </marquee>
+        </div>
+        <!-- end Emergency Banner -->
+
+        <!-- navbar -->
+        <nav
+            class="navbar navbar-expand-lg bg-white shadow border-bottom sticky-top"
+            style="top: 40px"
+        >
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img
+                        src="/asset/logo.png"
+                        alt="Logo Klinik"
+                        class="me-2 logo"
+                        style="height: 8vw; max-height: 80px"
+                    />
+                </a>
+                <button
+                    class="navbar-toggler border-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold active"
+                                href="index.html"
+                                >Beranda</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold"
+                                href="about.html"
+                                >Tentang Kami</a
+                            >
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle text-dark fw-semibold"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Layanan
+                            </a>
+                            <ul class="dropdown-menu" style="border: none">
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#Konsultasi"
+                                        >Konsultasi Dokter</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#pemeriksaan"
+                                        >Pemeriksaan Kesehatan</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#ugd"
+                                        >Layanan Gawat Darurat
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#apotek"
+                                        >Apotek dan Farmasi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#anak"
+                                        >Kesehatan Anak
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#ibu"
+                                        >Kesehatan Ibu Hamil
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#terapi"
+                                        >Terapi Kesehatan
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#gigi"
+                                        >Klinik Gigi
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold"
+                                href="healtharticles.html"
+                                >Artikel Kesehatan</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold"
+                                href="contact.html"
+                                >Hubungi Kami</a
+                            >
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a
+                                class="btn btn-primary rounded-pill px-3"
+                                href="services.html"
+                                >Daftar Online</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end-navbar -->
+
+        <!-- tentang kami -->
+        <section class="py-5" id="tentang-kami">
+            <div class="container">
+                <div class="row d-flex align-items-stretch">
+                    <div class="col-md-6 mb-4 mb-md-0 d-flex">
+                        <img
+                            src="/asset/about.png"
+                            alt="Tentang Kami"
+                            class="img-fluid rounded shadow w-100 object-fit-cover"
+                            style="object-fit: cover; height: 100%"
+                        />
+                    </div>
+                    <div
+                        class="col-md-6 d-flex flex-column justify-content-center"
+                    >
+                        <div>
+                            <h2 class="mb-3">Tentang Ridzz Medika</h2>
+                            <p class="text-muted">
+                                Ridzz Medika adalah klinik kesehatan yang
+                                berdedikasi memberikan pelayanan medis terbaik
+                                untuk masyarakat. Kami hadir dengan tenaga medis
+                                profesional, peralatan modern, dan lingkungan
+                                yang nyaman demi kesehatan Anda.
+                            </p>
+                            <p class="text-muted">
+                                Komitmen kami adalah menjadi mitra terpercaya
+                                Anda dalam menjaga dan meningkatkan kualitas
+                                hidup melalui layanan yang cepat, ramah, dan
+                                akurat.
+                            </p>
+                            <a href="contact.html" class="btn btn-primary mt-3"
+                                >Hubungi Kami</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end tentang kami -->
+
+        <!-- visimisi -->
+        <section class="py-5" id="visimisi">
+            <div class="container background-visimisi">
+                <div class="row text-white rounded-4 shadow-lg overflow-hidden">
+                    <div
+                        class="col-md-6 p-4 d-flex flex-column justify-content-center border-end border-light-subtle"
+                    >
+                        <h2 class="text-center mb-3 fw-bold">Visi</h2>
+                        <p class="text-light text-visi">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Magnam minima, veniam cum non aperiam velit
+                            deserunt itaque quia nobis suscipit. At,
+                            repellendus, adipisci. Perspiciatis, porro quas!
+                            Accusantium nisi consequatur, impedit.
+                        </p>
+                        <p class="text-light text-visi">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. In illum, minus blanditiis sequi est,
+                            reiciendis animi exercitationem dolores, possimus
+                            voluptates doloribus fugit reprehenderit obcaecati!
+                            Laborum iste, dignissimos sapiente veniam rerum.
+                        </p>
+                    </div>
+                    <div
+                        class="col-md-6 p-4 d-flex flex-column justify-content-center"
+                    >
+                        <h2 class="text-center mb-3 fw-bold">Misi</h2>
+                        <p class="text-light text-visi">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Magnam minima, veniam cum non aperiam velit
+                            deserunt itaque quia nobis suscipit. At,
+                            repellendus, adipisci. Perspiciatis, porro quas!
+                            Accusantium nisi consequatur, impedit.
+                        </p>
+                        <p class="text-light text-visi">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. In illum, minus blanditiis sequi est,
+                            reiciendis animi exercitationem dolores, possimus
+                            voluptates doloribus fugit reprehenderit obcaecati!
+                            Laborum iste, dignissimos sapiente veniam rerum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end visimisi -->
+
+        <!-- profil dokter -->
+        <section class="container py-5 dokter">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-black">Profil Dokter</h2>
+                <p class="text-muted">
+                    Profil lengkap dokter spesialis klinik kami
+                </p>
+            </div>
+
+            <!-- Dokter 1 -->
+            <div class="row align-items-center mb-5" id="dokter1">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img
+                        src="/asset/doctors/doctors-1.jpg"
+                        alt="dr. Ridzky Saputra"
+                        class="img-fluid rounded shadow"
+                        style="max-height: 300px"
+                    />
+                </div>
+                <div class="col-md-8">
+                    <h3 class="fw-bold">dr. Tony Tony Chopper, Sp.PD</h3>
+                    <p class="text-muted mb-1">Spesialis Penyakit Dalam</p>
+                    <p><strong>Nomor STR:</strong> 1234567890</p>
+                    <hr />
+                    <h5 class="mb-2">Riwayat Pendidikan</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            - Kedokteran Umum, Universitas Pulau Ohara(2012)
+                        </li>
+                        <li>
+                            - Spesialis Penyakit Dalam, Universitas Pulau Ohara
+                            (2018)
+                        </li>
+                    </ul>
+                    <h5 class="mt-4 mb-2">Pengalaman & Keahlian</h5>
+                    <ul class="list-unstyled">
+                        <li>- Praktik lebih dari 10 tahun</li>
+                        <li>- Keahlian: Diabetes, Hipertensi, Lansia</li>
+                    </ul>
+                    <h5 class="mt-4 mb-2">Jadwal Praktik</h5>
+                    <p class="mb-0">Senin – Jumat: 08.00 – 14.00</p>
+                    <p>Sabtu: 09.00 – 12.00</p>
+                    <a
+                        href="https://wa.me/6282137472779"
+                        target="_blank"
+                        class="btn btn-outline-primary mt-3"
+                        >Hubungi Admin untuk bertemu</a
+                    >
+                </div>
+            </div>
+
+            <!-- Dokter 2 -->
+            <div class="row align-items-center mb-5" id="dokter2">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img
+                        src="/asset/doctors/doctors-2.jpg"
+                        alt="dr. Anita Kusuma"
+                        class="img-fluid rounded shadow"
+                        style="max-height: 300px"
+                    />
+                </div>
+                <div class="col-md-8">
+                    <h3 class="fw-bold">dr. Tsunade Senju, Sp.KK</h3>
+                    <p class="text-muted mb-1">Spesialis Kulit dan Kelamin</p>
+                    <p><strong>Nomor STR:</strong> 0987654321</p>
+                    <hr />
+                    <h5 class="mb-2">Riwayat Pendidikan</h5>
+                    <ul class="list-unstyled">
+                        <li>- Kedokteran Umum, Akademi Ninja Konoha (2001)</li>
+                        <li>- Spesialis Kulit, Akademi Ninja Konoha (2005)</li>
+                    </ul>
+                    <h5 class="mt-4 mb-2">Pengalaman & Keahlian</h5>
+                    <ul class="list-unstyled">
+                        <li>- Praktik lebih dari 8 tahun</li>
+                        <li>
+                            - Keahlian: Alergi kulit, jerawat, infeksi menular
+                            seksual
+                        </li>
+                    </ul>
+                    <h5 class="mt-4 mb-2">Jadwal Praktik</h5>
+                    <p class="mb-0">Senin – Kamis: 10.00 – 16.00</p>
+                    <p>Sabtu: 08.00 – 11.00</p>
+                    <a
+                        href="https://wa.me/6282137472779"
+                        target="_blank"
+                        class="btn btn-outline-primary mt-3"
+                        >Hubungi Admin untuk bertemu</a
+                    >
+                </div>
+            </div>
+
+            <!-- Dokter 3 -->
+            <div class="row align-items-center mb-5" id="dokter3">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img
+                        src="/asset/doctors/doctors-3.jpg"
+                        alt="dr. Budi Santoso"
+                        class="img-fluid rounded shadow"
+                        style="max-height: 300px"
+                    />
+                </div>
+                <div class="col-md-8">
+                    <h3 class="fw-bold">dr. Hiriluk, Sp.OG</h3>
+                    <p class="text-muted mb-1">
+                        Spesialis Obstetri dan Ginekologi
+                    </p>
+                    <p><strong>Nomor STR:</strong> 2468135790</p>
+                    <hr />
+                    <h5 class="mb-2">Riwayat Pendidikan</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            - Kedokteran Umum, Universitas Pulau Ohara(2008)
+                        </li>
+                        <li>
+                            - Spesialis Obgyn, Universitas Pulau Ohara(2014)
+                        </li>
+                    </ul>
+                    <h5 class="mt-4 mb-2">Pengalaman & Keahlian</h5>
+                    <ul class="list-unstyled">
+                        <li>- Praktik lebih dari 9 tahun</li>
+                        <li>- Keahlian: Kehamilan, persalinan, infertilitas</li>
+                    </ul>
+                    <h5 class="mt-4 mb-2">Jadwal Praktik</h5>
+                    <p class="mb-0">Selasa – Jumat: 13.00 – 18.00</p>
+                    <p>Minggu: 08.00 – 10.00</p>
+                    <a
+                        href="https://wa.me/6282137472779"
+                        target="_blank"
+                        class="btn btn-outline-primary mt-3"
+                        >Hubungi Admin untuk bertemu</a
+                    >
+                </div>
+            </div>
+
+            <!-- Dokter 4 -->
+            <div class="row align-items-center mb-5" id="dokter4">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img
+                        src="/asset/doctors/doctors-4.jpg"
+                        alt="dr. Siti Marlina"
+                        class="img-fluid rounded shadow"
+                        style="max-height: 300px"
+                    />
+                </div>
+                <div class="col-md-8">
+                    <h3 class="fw-bold">dr. Sakura Haruno, Sp.A</h3>
+                    <p class="text-muted mb-1">Spesialis Anak</p>
+                    <p><strong>Nomor STR:</strong> 1357924680</p>
+                    <hr />
+                    <h5 class="mb-2">Riwayat Pendidikan</h5>
+                    <ul class="list-unstyled">
+                        <li>- Kedokteran Umum, Akademi Ninja Konoha (2009)</li>
+                        <li>- Spesialis Anak, Akademi Ninja Konoha (2015)</li>
+                    </ul>
+                    <h5 class="mt-4 mb-2">Pengalaman & Keahlian</h5>
+                    <ul class="list-unstyled">
+                        <li>- Praktik lebih dari 7 tahun</li>
+                        <li>
+                            - Keahlian: Tumbuh kembang, imunisasi, penyakit
+                            infeksi
+                        </li>
+                    </ul>
+                    <h5 class="mt-4 mb-2">Jadwal Praktik</h5>
+                    <p class="mb-0">Senin – Rabu: 09.00 – 13.00</p>
+                    <p>Jumat: 14.00 – 17.00</p>
+                    <a
+                        href="https://wa.me/6282137472779"
+                        target="_blank"
+                        class="btn btn-outline-primary mt-3"
+                        >Hubungi Admin untuk bertemu</a
+                    >
+                </div>
+            </div>
+        </section>
+        <!-- end profil dokter -->
+
+        <!-- gallery klinik -->
+        <section class="container px-2 mt-5" id="fasilitas">
+            <div class="py-4 border-bottom border-dark text-center">
+                <h1>Galeri Klinik Kami</h1>
+                <h5 class="py-2">
+                    Berikut ini beberapa fasilitas yang kami miliki
+                </h5>
+            </div>
+
+            <div
+                class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 py-3"
+            >
+                <div class="col">
+                    <img
+                        src="asset/gallery/gallery-1.jpg"
+                        alt=""
+                        class="img-fluid rounded shadow-sm"
+                    />
+                </div>
+                <div class="col">
+                    <img
+                        src="asset/gallery/gallery-2.jpg"
+                        alt=""
+                        class="img-fluid rounded shadow-sm"
+                    />
+                </div>
+                <div class="col">
+                    <img
+                        src="asset/gallery/gallery-3.jpg"
+                        alt=""
+                        class="img-fluid rounded shadow-sm"
+                    />
+                </div>
+                <div class="col">
+                    <img
+                        src="asset/gallery/gallery-4.jpg"
+                        alt=""
+                        class="img-fluid rounded shadow-sm"
+                    />
+                </div>
+                <div class="col">
+                    <img
+                        src="asset/gallery/gallery-5.jpg"
+                        alt=""
+                        class="img-fluid rounded shadow-sm"
+                    />
+                </div>
+                <div class="col">
+                    <img
+                        src="asset/gallery/gallery-6.jpg"
+                        alt=""
+                        class="img-fluid rounded shadow-sm"
+                    />
+                </div>
+                <div class="col">
+                    <img
+                        src="asset/gallery/gallery-7.jpg"
+                        alt=""
+                        class="img-fluid rounded shadow-sm"
+                    />
+                </div>
+                <div class="col">
+                    <img
+                        src="asset/gallery/gallery-8.jpg"
+                        alt=""
+                        class="img-fluid rounded shadow-sm"
+                    />
+                </div>
+            </div>
+        </section>
+        <!-- end gallery klinik -->
+
+        <!-- footer -->
+        <footer class="bg-light text-dark py-5 mt-5 border-top shadow-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <img
+                            src="/asset/logo.png"
+                            alt="Logo"
+                            class="mb-3"
+                            style="height: 60px"
+                        />
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Tenetur deleniti saepe consequatur dolor,
+                            suscipit magni reiciendis eum mollitia.
+                        </p>
+                        <div class="social-icons d-flex gap-3">
+                            <a
+                                href="#"
+                                class="text-dark fs-5"
+                                aria-label="Facebook"
+                            >
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="text-dark fs-5"
+                                aria-label="Instagram"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="text-dark fs-5"
+                                aria-label="Twitter"
+                            >
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Link Navigasi -->
+                    <div class="col-md-2 mb-4">
+                        <h5 class="text-dark mb-3">Link</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="index.html"
+                                    >Beranda</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="about.html"
+                                    >Tentang Kami</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="services.html"
+                                    >Layanan</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="healtharticles.html"
+                                    >Artikel Kesehatan</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block"
+                                    href="contact.html"
+                                    >Hubungi Kami</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <h5 class="text-dark mb-3">Kontak Kami</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-2">
+                                <i class="fa-solid fa-location-dot me-2"></i>
+                                Jl. Apatuh No. 123, Tengaran
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa-solid fa-phone me-2"></i>
+                                1221
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa-solid fa-envelope me-2"></i>
+                                Ridzz@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <h5 class="text-dark mb-3">Jam Operasional</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-2">Senin–Jumat: 08.00 – 21.00</li>
+                            <li class="mb-2">Sabtu–Minggu: 09.00 – 17.00</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary mt-3"
+                            >Hubungi Kami</a
+                        >
+                    </div>
+                </div>
+
+                <hr class="my-4" />
+                <div class="text-center text-muted small">
+                    &copy; 2025 Ridzz Medika. Seluruh hak cipta dilindungi.
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </body>
+</html>

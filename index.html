@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- bootsrap-links -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+        <!-- end-links -->
+
+        <!-- fontawesome -->
+        <script
+            src="https://kit.fontawesome.com/1df42cf205.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- end-fontawesome -->
+
+        <!-- css -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- end-css -->
+
+        <!-- icon -->
+        <link rel="icon" href="/asset/logo.png" />
+        <title>Ridzz Medika</title>
+        <!-- end icon -->
+    </head>
+    <body>
+        <!-- emergency Banner -->
+        <div class="sticky-top bg-danger py-2 marquee-wrapper shadow-sm">
+            <marquee
+                behavior="scroll"
+                direction="left"
+                scrollamount="3"
+                class="text-dark"
+            >
+                <div
+                    class="container d-flex justify-content-between align-items-center text-white"
+                >
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Darurat? Hubungi: <strong>1221</strong></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-clock"></i>
+                        <span
+                            >Buka:
+                            <strong>Senin-Minggu 08:00-21:00</strong></span
+                        >
+                    </div>
+                </div>
+            </marquee>
+        </div>
+        <!-- end Emergency Banner -->
+
+        <!-- navbar -->
+        <nav
+            class="navbar navbar-expand-lg bg-white shadow border-bottom sticky-top"
+            style="top: 40px"
+        >
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img
+                        src="/asset/logo.png"
+                        alt="Logo Klinik"
+                        class="me-2 logo"
+                        style="height: 8vw; max-height: 80px"
+                    />
+                </a>
+                <button
+                    class="navbar-toggler border-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold active"
+                                href="index.html"
+                                >Beranda</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold"
+                                href="about.html"
+                                >Tentang Kami</a
+                            >
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle text-dark fw-semibold"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Layanan
+                            </a>
+                            <ul class="dropdown-menu" style="border: none">
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#Konsultasi"
+                                        >Konsultasi Dokter</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#pemeriksaan"
+                                        >Pemeriksaan Kesehatan</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#ugd"
+                                        >Layanan Gawat Darurat
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#apotek"
+                                        >Apotek dan Farmasi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#anak"
+                                        >Kesehatan Anak
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#ibu"
+                                        >Kesehatan Ibu Hamil
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#terapi"
+                                        >Terapi Kesehatan
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services.html#gigi"
+                                        >Klinik Gigi
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold"
+                                href="healtharticles.html"
+                                >Artikel Kesehatan</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-dark fw-semibold"
+                                href="contact.html"
+                                >Hubungi Kami</a
+                            >
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a
+                                class="btn btn-primary rounded-pill px-3"
+                                href="services.html"
+                                >Daftar Online</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- end-navbar -->
+
+        <!-- Carousel -->
+        <section
+            id="carouselExampleSlidesOnly"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+        >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="/asset/Carousel/hero-carousel-1.jpg"
+                        class="d-block w-100"
+                        
+                    />
+                    <div
+                        class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 w-100 bg-dark bg-opacity-50"
+                    >
+                        <h2 class="display-4 fw-bold text-white">
+                            Pelayanan Kesehatan Terbaik
+                        </h2>
+                        <p class="lead text-white text-center">
+                            Dokter profesional siap melayani Anda dengan penuh
+                            kehangatan
+                        </p>
+                        <a href="services.html" class="button btn btn-primary btn-lg mt-3"
+                            >Daftar Sekarang</a
+                        >
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img
+                        src="/asset/Carousel/hero-carousel-2.jpg"
+                        class="d-block w-100"
+                  
+                    />
+                    <div
+                        class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 w-100 bg-dark bg-opacity-50"
+                    >
+                        <h2 class="display-4 fw-bold text-white">
+                            Fasilitas Modern
+                        </h2>
+                        <p class="lead text-white text-center">
+                            Didukung dengan peralatan medis terkini untuk
+                            diagnosis akurat
+                        </p>
+                        <a
+                            href="about.html#fasilitas"
+                            class="button btn btn-primary btn-lg mt-3"
+                            >Lihat Layanan</a
+                        >
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img
+                        src="/asset/Carousel/hero-carousel-3.jpg"
+                        class="d-block w-100"
+                        
+                    />
+                    <div
+                        class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 w-100 bg-dark bg-opacity-50"
+                    >
+                        <h2 class="display-4 fw-bold text-white">
+                            Kesehatanmu Prioritas Kami
+                        </h2>
+                        <p class="lead text-white text-center">
+                            Dari anak hingga lansia, kami siap merawat seluruh
+                            anggota keluarga Anda
+                        </p>
+                        <a href="services.html#Konsultasi" class="button btn btn-primary btn-lg mt-3"
+                            >Konsultasi Gratis</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end-Carousel -->
+
+        <!-- Layanan unggulan -->
+        <section class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-primary">Layanan Unggulan</h2>
+                <p class="text-muted">
+                    Pelayanan kesehatan terbaik untuk Anda dan keluarga
+                </p>
+            </div>
+            <div
+                class="row d-flex flex-nowrap overflow-auto scrolling-touch gap-3"
+            >
+                <div class="col-md-3">
+                    <div class="card shadow-sm border-0">
+                        <img
+                            src="/asset/layanan/layanan-1.jpg"
+                            class="card-img-top"
+                            alt="Konsultasi Dokter"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">
+                                <i class="fa-solid fa-user-doctor me-2"></i
+                                >Konsultasi Dokter
+                            </h5>
+                            <p class="card-text text-muted">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Doloribus accusamus,
+                                reiciendis illum. At, itaque sunt ipsum.
+                                Molestiae, alias sapiente quae culpa fugiat
+                                pariatur natus, iure perspiciatis modi esse
+                                officia quisquam!
+                            </p>
+                            <a
+                                href="services.html#Konsultasi"
+                                class="btn btn-outline-primary"
+                                >Selengkapnya</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card shadow-sm border-0">
+                        <img
+                            src="/asset/layanan/layanan-2.jpg"
+                            class="card-img-top"
+                            alt="Pemeriksaan Kesehatan"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">
+                                <i class="fa-solid fa-clipboard-list me-2"></i
+                                >Pemeriksaan Kesehatan
+                            </h5>
+                            <p class="card-text text-muted">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Doloribus accusamus,
+                                reiciendis illum. At, itaque sunt ipsum.
+                                Molestiae, alias sapiente quae culpa fugiat
+                                pariatur natus, iure perspiciatis modi esse
+                                officia quisquam!
+                            </p>
+                            <a
+                                href="services.html#pemeriksaan"
+                                class="btn btn-outline-primary"
+                                >Selengkapnya</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card shadow-sm border-0">
+                        <img
+                            src="/asset/layanan/layanan-3.jpg"
+                            class="card-img-top"
+                            alt="Layanan Gawat Darurat"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">
+                                <i class="fa-solid fa-truck-medical me-2"></i
+                                >Layanan Gawat Darurat
+                            </h5>
+                            <p class="card-text text-muted">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Doloribus accusamus,
+                                reiciendis illum. At, itaque sunt ipsum.
+                                Molestiae, alias sapiente quae culpa fugiat
+                                pariatur natus, iure perspiciatis modi esse
+                                officia quisquam!
+                            </p>
+                            <a
+                                href="services.html#ugd"
+                                class="btn btn-outline-primary"
+                                >Selengkapnya</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card shadow-sm border-0">
+                        <img
+                            src="/asset/layanan/layanan-4.jpg"
+                            class="card-img-top"
+                            alt="Apotek dan Farmasi"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">
+                                <i class="fa-solid fa-capsules me-2"></i>Apotek
+                                dan Farmasi
+                            </h5>
+                            <p class="card-text text-muted">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Doloribus accusamus,
+                                reiciendis illum. At, itaque sunt ipsum.
+                                Molestiae, alias sapiente quae culpa fugiat
+                                pariatur natus, iure perspiciatis modi esse
+                                officia quisquam!
+                            </p>
+                            <a
+                                href="services.html#apotek"
+                                class="btn btn-outline-primary"
+                                >Selengkapnya</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Layanan unggulan -->
+
+        <!-- dokter -->
+        <section class="py-5 bg-light" id="dokter-kami">
+            <div class="container">
+                <h2 class="text-center mb-4">Dokter Kami</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card shadow-sm h-100 text-center">
+                            <img
+                                src="asset/doctors/doctors-1.jpg"
+                                class="card-img-top"
+                            />
+                            <div class="card-body">
+                                <h5 class="fw-bold">
+                                    dr. Tony Tony Chopper, Sp.PD
+                                </h5>
+                                <p class="text-muted mb-1">
+                                    Spesialis Penyakit Dalam
+                                </p>
+                                <a
+                                    href="about.html#dokter1"
+                                    class="btn btn-outline-primary btn-sm"
+                                    >Lihat Profil</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card shadow-sm h-100 text-center">
+                            <img
+                                src="asset/doctors/doctors-2.jpg"
+                                class="card-img-top"
+                            />
+                            <div class="card-body">
+                                <h5 class="fw-bold">
+                                    dr. Tsunade Senju, Sp.KK
+                                </h5>
+                                <p class="text-muted mb-1">
+                                    Spesialis Kulit dan Kelamin
+                                </p>
+                                <a
+                                    href="about.html#dokter2"
+                                    class="btn btn-outline-primary btn-sm"
+                                    >Lihat Profil</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card shadow-sm h-100 text-center">
+                            <img
+                                src="asset/doctors/doctors-3.jpg"
+                                class="card-img-top"
+                            />
+                            <div class="card-body">
+                                <h5 class="fw-bold">dr. Hiriluk, Sp.OG</h5>
+                                <p class="text-muted mb-1">
+                                    Spesialis Obstetri dan Ginekologi
+                                </p>
+                                <a
+                                    href="about.html#dokter3"
+                                    class="btn btn-outline-primary btn-sm"
+                                    >Lihat Profil</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card shadow-sm h-100 text-center">
+                            <img
+                                src="asset/doctors/doctors-4.jpg"
+                                class="card-img-top"
+                            />
+                            <div class="card-body">
+                                <h5 class="fw-bold">dr. Sakura Haruno, Sp.A</h5>
+                                <p class="text-muted mb-1">Spesialis Anak</p>
+                                <a
+                                    href="about.html#dokter4"
+                                    class="btn btn-outline-primary btn-sm"
+                                    >Lihat Profil</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end dokter -->
+
+        <!-- testimoni -->
+        <section
+            class="position-relative vh-50 bg-dark text-white d-flex flex-column justify-content-center align-items-center"
+            style="
+                background: url(/asset/departments-4.jpg) center/cover no-repeat;
+            "
+        >
+            <div
+                class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"
+            ></div>
+            <div
+                class="position-relative text-center px-4 w-100 py-4"
+                style="max-height: 80vh; overflow-y: auto"
+            >
+                <h1 class="content-center">Testimonial dari Pasien Kami</h1>
+                <div
+                    class="row d-flex flex-nowrap overflow-auto scrolling-touch gap-3"
+                >
+                    <div class="col-md-5 mb-3">
+                        <div class="card p-4 shadow">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <div
+                                        class="d-flex flex-column align-items-center"
+                                    >
+                                        <img
+                                            src="/asset/testimonial/testimonials-1.jpg"
+                                            alt="Profile picture of Fajar"
+                                            class="rounded-circle mb-2"
+                                            width="50"
+                                            height="50"
+                                        />
+                                        <div>
+                                            <p class="fw-bold mb-0">Amba</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex-grow-1">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Iusto vero voluptates
+                                        libero perspiciatis blanditiis magni,
+                                        fugiat modi ut in officiis ratione
+                                        molestiae porro, dolor facere adipisci,
+                                        excepturi accusantium quaerat laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mb-3">
+                        <div class="card p-4 shadow">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <div
+                                        class="d-flex flex-column align-items-center"
+                                    >
+                                        <img
+                                            src="/asset/testimonial/testimonials-2.jpg"
+                                            alt="Profile picture of Fajar"
+                                            class="rounded-circle mb-2"
+                                            width="50"
+                                            height="50"
+                                        />
+                                        <div>
+                                            <p class="fw-bold mb-0">Amba</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex-grow-1">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Iusto vero voluptates
+                                        libero perspiciatis blanditiis magni,
+                                        fugiat modi ut in officiis ratione
+                                        molestiae porro, dolor facere adipisci,
+                                        excepturi accusantium quaerat laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mb-3">
+                        <div class="card p-4 shadow">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <div
+                                        class="d-flex flex-column align-items-center"
+                                    >
+                                        <img
+                                            src="/asset/testimonial/testimonials-3.jpg"
+                                            alt="Profile picture of Fajar"
+                                            class="rounded-circle mb-2"
+                                            width="50"
+                                            height="50"
+                                        />
+                                        <div>
+                                            <p class="fw-bold mb-0">Amba</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex-grow-1">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Iusto vero voluptates
+                                        libero perspiciatis blanditiis magni,
+                                        fugiat modi ut in officiis ratione
+                                        molestiae porro, dolor facere adipisci,
+                                        excepturi accusantium quaerat laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mb-3">
+                        <div class="card p-4 shadow">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <div
+                                        class="d-flex flex-column align-items-center"
+                                    >
+                                        <img
+                                            src="/asset/testimonial/testimonials-4.jpg"
+                                            alt="Profile picture of Fajar"
+                                            class="rounded-circle mb-2"
+                                            width="50"
+                                            height="50"
+                                        />
+                                        <div>
+                                            <p class="fw-bold mb-0">Amba</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex-grow-1">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Iusto vero voluptates
+                                        libero perspiciatis blanditiis magni,
+                                        fugiat modi ut in officiis ratione
+                                        molestiae porro, dolor facere adipisci,
+                                        excepturi accusantium quaerat laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mb-3">
+                        <div class="card p-4 shadow">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <div
+                                        class="d-flex flex-column align-items-center"
+                                    >
+                                        <img
+                                            src="/asset/testimonial/testimonials-5.jpg"
+                                            alt="Profile picture of Fajar"
+                                            class="rounded-circle mb-2"
+                                            width="50"
+                                            height="50"
+                                        />
+                                        <div>
+                                            <p class="fw-bold mb-0">Amba</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex-grow-1">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Iusto vero voluptates
+                                        libero perspiciatis blanditiis magni,
+                                        fugiat modi ut in officiis ratione
+                                        molestiae porro, dolor facere adipisci,
+                                        excepturi accusantium quaerat laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end testimoni -->
+
+        <!-- footer -->
+        <footer class="bg-light text-dark py-5 mt-5 border-top shadow-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <img
+                            src="/asset/logo.png"
+                            alt="Logo"
+                            class="mb-3"
+                            style="height: 60px"
+                        />
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Tenetur deleniti saepe consequatur dolor,
+                            suscipit magni reiciendis eum mollitia.
+                        </p>
+                        <div class="social-icons d-flex gap-3">
+                            <a
+                                href="#"
+                                class="text-dark fs-5"
+                                aria-label="Facebook"
+                            >
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="text-dark fs-5"
+                                aria-label="Instagram"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a
+                                href="#"
+                                class="text-dark fs-5"
+                                aria-label="Twitter"
+                            >
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Link Navigasi -->
+                    <div class="col-md-2 mb-4">
+                        <h5 class="text-dark mb-3">Link</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="index.html"
+                                    >Beranda</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="about.html"
+                                    >Tentang Kami</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="services.html"
+                                    >Layanan</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block mb-2"
+                                    href="healtharticles.html"
+                                    >Artikel Kesehatan</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-muted text-decoration-none d-block"
+                                    href="contact.html"
+                                    >Hubungi Kami</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <h5 class="text-dark mb-3">Kontak Kami</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-2">
+                                <i class="fa-solid fa-location-dot me-2"></i>
+                                Jl. Apatuh No. 123, Tengaran
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa-solid fa-phone me-2"></i>
+                                1221
+                            </li>
+                            <li class="mb-2">
+                                <i class="fa-solid fa-envelope me-2"></i>
+                                Ridzz@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <h5 class="text-dark mb-3">Jam Operasional</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-2">Senin–Jumat: 08.00 – 21.00</li>
+                            <li class="mb-2">Sabtu–Minggu: 09.00 – 17.00</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary mt-3"
+                            >Hubungi Kami</a
+                        >
+                    </div>
+                </div>
+
+                <hr class="my-4" />
+                <div class="text-center text-muted small">
+                    &copy; 2025 Ridzz Medika. Seluruh hak cipta dilindungi.
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </body>
+</html>
