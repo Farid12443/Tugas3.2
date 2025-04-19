@@ -1,323 +1,244 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <!-- bootsrap-links -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-            crossorigin="anonymous"
-        />
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"
-        ></script>
-        <!-- end-links -->
 
-        <!-- fontawesome -->
-        <script
-            src="https://kit.fontawesome.com/1df42cf205.js"
-            crossorigin="anonymous"
-        ></script>
-        <!-- end-fontawesome -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootsrap-links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- end-links -->
 
-        <!-- css -->
-        <link rel="stylesheet" href="style.css" />
-        <!-- end-css -->
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1df42cf205.js" crossorigin="anonymous"></script>
+    <!-- end-fontawesome -->
 
-        <!-- icon -->
-        <link rel="icon" href="/asset/logo.png" />
-        <title>Artikel Kesehatan</title>
-        <!-- end icon -->
-    </head>
-    <body>
-        <!-- emergency Banner -->
-        <div class="sticky-top bg-danger py-2 marquee-wrapper shadow-sm">
-            <marquee
-                behavior="scroll"
-                direction="left"
-                scrollamount="3"
-                class="text-dark"
-            >
-                <div
-                    class="container d-flex justify-content-between align-items-center text-white"
-                >
-                    <div>
-                        <i class="fa-solid fa-phone"></i>
-                        <span>Darurat? Hubungi: <strong>1221</strong></span>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-clock"></i>
-                        <span
-                            >Buka:
-                            <strong>Senin-Minggu 08:00-21:00</strong></span
-                        >
-                    </div>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- end-css -->
+
+    <!-- icon -->
+    <link rel="icon" href="asset/logo.png" />
+    <title>Artikel Kesehatan</title>
+    <!-- end icon -->
+</head>
+
+<body>
+    <!-- emergency Banner -->
+    <div class="sticky-top bg-danger py-2 marquee-wrapper shadow-sm">
+        <marquee behavior="scroll" direction="left" scrollamount="3" class="text-dark">
+            <div class="container d-flex justify-content-between align-items-center text-white">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Darurat? Hubungi: <strong>1221</strong></span>
                 </div>
-            </marquee>
-        </div>
-        <!-- end Emergency Banner -->
-
-        <!-- navbar -->
-        <nav
-            class="navbar navbar-expand-lg bg-white shadow border-bottom sticky-top"
-            style="top: 40px"
-        >
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center" href="#">
-                    <img
-                        src="/asset/logo.png"
-                        alt="Logo Klinik"
-                        class="me-2 logo"
-                        style="height: 8vw; max-height: 80px"
-                    />
-                </a>
-                <button
-                    class="navbar-toggler border-0"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a
-                                class="nav-link text-dark fw-semibold active"
-                                href="index.html"
-                                >Beranda</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                class="nav-link text-dark fw-semibold"
-                                href="about.html"
-                                >Tentang Kami</a
-                            >
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle text-dark fw-semibold"
-                                href="#"
-                                role="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                Layanan
-                            </a>
-                            <ul class="dropdown-menu" style="border: none">
-                                <li>
-                                    <a
-                                        class="dropdown-item"
-                                        href="services.html#Konsultasi"
-                                        >Konsultasi Dokter</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        class="dropdown-item"
-                                        href="services.html#pemeriksaan"
-                                        >Pemeriksaan Kesehatan</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        class="dropdown-item"
-                                        href="services.html#ugd"
-                                        >Layanan Gawat Darurat
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="dropdown-item"
-                                        href="services.html#apotek"
-                                        >Apotek dan Farmasi
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="dropdown-item"
-                                        href="services.html#anak"
-                                        >Kesehatan Anak
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="dropdown-item"
-                                        href="services.html#ibu"
-                                        >Kesehatan Ibu Hamil
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="dropdown-item"
-                                        href="services.html#terapi"
-                                        >Terapi Kesehatan
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        class="dropdown-item"
-                                        href="services.html#gigi"
-                                        >Klinik Gigi
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                class="nav-link text-dark fw-semibold"
-                                href="healtharticles.html"
-                                >Artikel Kesehatan</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                class="nav-link text-dark fw-semibold"
-                                href="contact.html"
-                                >Hubungi Kami</a
-                            >
-                        </li>
-                        <li class="nav-item ms-lg-3">
-                            <a
-                                class="btn btn-primary rounded-pill px-3"
-                                href="services.html"
-                                >Daftar Online</a
-                            >
-                        </li>
-                    </ul>
+                <div>
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Buka:
+                        <strong>Senin-Minggu 08:00-21:00</strong></span>
                 </div>
             </div>
-        </nav>
-        <!-- end-navbar -->
-
-        <!-- daftar artikel -->
-<section id="daftar-artikel">
-  <h2 class="text-center my-4 fw-bold">Artikel Kesehatan</h2>
-
-  <div class="row">
-    <!-- Artikel 1 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card h-100">
-        <img src="asset/departments-1.jpg" class="card-img-top" alt="Kesehatan Jantung" />
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Lorem Ipsum Dolor</h5>
-          <p class="card-text flex-grow-1">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem perspiciatis...
-          </p>
-          <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel1')">Baca Selengkapnya</button>
-        </div>
-      </div>
+        </marquee>
     </div>
+    <!-- end Emergency Banner -->
 
-    <!-- Artikel 2 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card h-100">
-        <img src="asset/departments-2.jpg" class="card-img-top" alt="Kesehatan Jantung" />
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Lorem Ipsum Dolor</h5>
-          <p class="card-text flex-grow-1">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem perspiciatis...
-          </p>
-          <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel2')">Baca Selengkapnya</button>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow border-bottom sticky-top" style="top: 40px">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="asset/logo.png" alt="Logo Klinik" class="me-2 logo" style="height: 8vw; max-height: 80px" />
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold active" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="about.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark fw-semibold" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Layanan
+                        </a>
+                        <ul class="dropdown-menu" style="border: none">
+                            <li>
+                                <a class="dropdown-item" href="services.html#Konsultasi">Konsultasi Dokter</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html#pemeriksaan">Pemeriksaan Kesehatan</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html#ugd">Layanan Gawat Darurat
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html#apotek">Apotek dan Farmasi
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html#anak">Kesehatan Anak
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html#ibu">Kesehatan Ibu Hamil
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html#terapi">Terapi Kesehatan
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html#gigi">Klinik Gigi
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="healtharticles.html">Artikel Kesehatan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="contact.html">Hubungi Kami</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary rounded-pill px-3" href="services.html">Daftar Online</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
+    </nav>
+    <!-- end-navbar -->
 
-    <!-- Artikel 3 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card h-100">
-        <img src="asset/departments-3.jpg" class="card-img-top" alt="Kesehatan Jantung" />
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Lorem Ipsum Dolor</h5>
-          <p class="card-text flex-grow-1">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem perspiciatis...
-          </p>
-          <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel3')">Baca Selengkapnya</button>
+    <!-- daftar artikel -->
+    <section id="daftar-artikel">
+        <h2 class="text-center my-4 fw-bold">Artikel Kesehatan</h2>
+
+        <div class="row">
+            <!-- Artikel 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="asset/departments-1.jpg" class="card-img-top" alt="Kesehatan Jantung" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Lorem Ipsum Dolor</h5>
+                        <p class="card-text flex-grow-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem
+                            perspiciatis...
+                        </p>
+                        <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel1')">Baca
+                            Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artikel 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="asset/departments-2.jpg" class="card-img-top" alt="Kesehatan Jantung" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Lorem Ipsum Dolor</h5>
+                        <p class="card-text flex-grow-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem
+                            perspiciatis...
+                        </p>
+                        <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel2')">Baca
+                            Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artikel 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="asset/departments-3.jpg" class="card-img-top" alt="Kesehatan Jantung" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Lorem Ipsum Dolor</h5>
+                        <p class="card-text flex-grow-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem
+                            perspiciatis...
+                        </p>
+                        <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel3')">Baca
+                            Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artikel 4 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="asset/departments-4.jpg" class="card-img-top" alt="Kesehatan Jantung" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Lorem Ipsum Dolor</h5>
+                        <p class="card-text flex-grow-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem
+                            perspiciatis...
+                        </p>
+                        <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel4')">Baca
+                            Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artikel 5 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="asset/departments-5.jpg" class="card-img-top" alt="Kesehatan Jantung" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Lorem Ipsum Dolor</h5>
+                        <p class="card-text flex-grow-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem
+                            perspiciatis...
+                        </p>
+                        <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel5')">Baca
+                            Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artikel 6 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="asset/departments-6.png" class="card-img-top" alt="Artikel6" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Lorem Ipsum Dolor</h5>
+                        <p class="card-text flex-grow-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem
+                            perspiciatis...
+                        </p>
+                        <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel6')">Baca
+                            Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    </section>
+    <!-- end daftar artikel -->
 
-    <!-- Artikel 4 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card h-100">
-        <img src="asset/departments-4.jpg" class="card-img-top" alt="Kesehatan Jantung" />
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Lorem Ipsum Dolor</h5>
-          <p class="card-text flex-grow-1">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem perspiciatis...
-          </p>
-          <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel4')">Baca Selengkapnya</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Artikel 5 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card h-100">
-        <img src="asset/departments-5.jpg" class="card-img-top" alt="Kesehatan Jantung" />
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Lorem Ipsum Dolor</h5>
-          <p class="card-text flex-grow-1">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem perspiciatis...
-          </p>
-          <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel5')">Baca Selengkapnya</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Artikel 6 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card h-100">
-        <img src="asset/departments-6.png" class="card-img-top" alt="Artikel6" />
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Lorem Ipsum Dolor</h5>
-          <p class="card-text flex-grow-1">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias numquam iusto dolorem perspiciatis...
-          </p>
-          <button class="btn btn-primary mt-auto" onclick="tampilkanArtikel('artikel6')">Baca Selengkapnya</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-        <!-- end daftar artikel -->
-
-        <!-- artikel lengkap -->
-        <!-- artikel 1 -->
-        <section>
-        <section
-            id="artikel1"
-            class="artikel-lengkap container mt-4"
-            style="display: none"
-        >
+    <!-- artikel lengkap -->
+    <!-- artikel 1 -->
+    <section>
+        <section id="artikel1" class="artikel-lengkap container mt-4" style="display: none">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <!-- Tombol Kembali -->
-                    <button
-                        class="btn btn-outline-secondary mb-4"
-                        onclick="kembali()"
-                    >
+                    <button class="btn btn-outline-secondary mb-4" onclick="kembali()">
                         <i class="bi bi-arrow-left"></i> Kembali ke Artikel
                     </button>
 
                     <!-- Judul Artikel -->
                     <h1 class="text-center fw-bold mb-4">
-                        lorem Ipsum Dolor 
+                        lorem Ipsum Dolor
                     </h1>
 
                     <!-- Gambar Utama -->
                     <div class="text-center mb-4">
-                        <img
-                            src="asset/departments-1.jpg"
-                            class="img-fluid rounded-3 shadow"
-                            alt="Artikel1"
-                        />
+                        <img src="asset/departments-1.jpg" class="img-fluid rounded-3 shadow" alt="Artikel1" />
                     </div>
 
                     <!-- Konten Artikel -->
@@ -445,10 +366,8 @@
                         <div class="card-body text-muted">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <small
-                                        >Ditulis oleh:
-                                        <strong>Muhammad Farid Islamudin</strong></small
-                                    >
+                                    <small>Ditulis oleh:
+                                        <strong>Muhammad Farid Islamudin</strong></small>
                                 </div>
                                 <div class="col-md-6 text-md-end">
                                     <small>Tengaran, 20 April 2025</small>
@@ -460,33 +379,22 @@
             </div>
         </section>
         <!-- artikel 2 -->
-        <section
-            id="artikel2"
-            class="artikel-lengkap container mt-4"
-            style="display: none"
-        >
+        <section id="artikel2" class="artikel-lengkap container mt-4" style="display: none">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <!-- Tombol Kembali -->
-                    <button
-                        class="btn btn-outline-secondary mb-4"
-                        onclick="kembali()"
-                    >
+                    <button class="btn btn-outline-secondary mb-4" onclick="kembali()">
                         <i class="bi bi-arrow-left"></i> Kembali ke Artikel
                     </button>
 
                     <!-- Judul Artikel -->
                     <h1 class="text-center fw-bold mb-4">
-                        lorem Ipsum Dolor 
+                        lorem Ipsum Dolor
                     </h1>
 
                     <!-- Gambar Utama -->
                     <div class="text-center mb-4">
-                        <img
-                            src="asset/departments-2.jpg"
-                            class="img-fluid rounded-3 shadow"
-                            alt="Artikel2"
-                        />
+                        <img src="asset/departments-2.jpg" class="img-fluid rounded-3 shadow" alt="Artikel2" />
                     </div>
 
                     <!-- Konten Artikel -->
@@ -614,10 +522,8 @@
                         <div class="card-body text-muted">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <small
-                                        >Ditulis oleh:
-                                        <strong>Muhammad Farid Islamudin</strong></small
-                                    >
+                                    <small>Ditulis oleh:
+                                        <strong>Muhammad Farid Islamudin</strong></small>
                                 </div>
                                 <div class="col-md-6 text-md-end">
                                     <small>Tengaran, 20 April 2025</small>
@@ -629,33 +535,22 @@
             </div>
         </section>
         <!-- artikel 3 -->
-        <section
-            id="artikel3"
-            class="artikel-lengkap container mt-4"
-            style="display: none"
-        >
+        <section id="artikel3" class="artikel-lengkap container mt-4" style="display: none">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <!-- Tombol Kembali -->
-                    <button
-                        class="btn btn-outline-secondary mb-4"
-                        onclick="kembali()"
-                    >
+                    <button class="btn btn-outline-secondary mb-4" onclick="kembali()">
                         <i class="bi bi-arrow-left"></i> Kembali ke Artikel
                     </button>
 
                     <!-- Judul Artikel -->
                     <h1 class="text-center fw-bold mb-4">
-                        lorem Ipsum Dolor 
+                        lorem Ipsum Dolor
                     </h1>
 
                     <!-- Gambar Utama -->
                     <div class="text-center mb-4">
-                        <img
-                            src="asset/departments-3.jpg"
-                            class="img-fluid rounded-3 shadow"
-                            alt="Artikel3"
-                        />
+                        <img src="asset/departments-3.jpg" class="img-fluid rounded-3 shadow" alt="Artikel3" />
                     </div>
 
                     <!-- Konten Artikel -->
@@ -783,10 +678,8 @@
                         <div class="card-body text-muted">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <small
-                                        >Ditulis oleh:
-                                        <strong>Muhammad Farid Islamudin</strong></small
-                                    >
+                                    <small>Ditulis oleh:
+                                        <strong>Muhammad Farid Islamudin</strong></small>
                                 </div>
                                 <div class="col-md-6 text-md-end">
                                     <small>Tengaran, 20 April 2025</small>
@@ -798,33 +691,22 @@
             </div>
         </section>
         <!-- artikel 4 -->
-        <section
-            id="artikel4"
-            class="artikel-lengkap container mt-4"
-            style="display: none"
-        >
+        <section id="artikel4" class="artikel-lengkap container mt-4" style="display: none">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <!-- Tombol Kembali -->
-                    <button
-                        class="btn btn-outline-secondary mb-4"
-                        onclick="kembali()"
-                    >
+                    <button class="btn btn-outline-secondary mb-4" onclick="kembali()">
                         <i class="bi bi-arrow-left"></i> Kembali ke Artikel
                     </button>
 
                     <!-- Judul Artikel -->
                     <h1 class="text-center fw-bold mb-4">
-                        lorem Ipsum Dolor 
+                        lorem Ipsum Dolor
                     </h1>
 
                     <!-- Gambar Utama -->
                     <div class="text-center mb-4">
-                        <img
-                            src="aasset/departments-4"
-                            class="img-fluid rounded-3 shadow"
-                            alt="Artikel4"
-                        />
+                        <img src="aasset/departments-4" class="img-fluid rounded-3 shadow" alt="Artikel4" />
                     </div>
 
                     <!-- Konten Artikel -->
@@ -952,10 +834,8 @@
                         <div class="card-body text-muted">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <small
-                                        >Ditulis oleh:
-                                        <strong>Muhammad Farid Islamudin</strong></small
-                                    >
+                                    <small>Ditulis oleh:
+                                        <strong>Muhammad Farid Islamudin</strong></small>
                                 </div>
                                 <div class="col-md-6 text-md-end">
                                     <small>Tengaran, 20 April 2025</small>
@@ -967,33 +847,22 @@
             </div>
         </section>
         <!-- artikel 5 -->
-        <section
-            id="artikel5"
-            class="artikel-lengkap container mt-4"
-            style="display: none"
-        >
+        <section id="artikel5" class="artikel-lengkap container mt-4" style="display: none">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <!-- Tombol Kembali -->
-                    <button
-                        class="btn btn-outline-secondary mb-4"
-                        onclick="kembali()"
-                    >
+                    <button class="btn btn-outline-secondary mb-4" onclick="kembali()">
                         <i class="bi bi-arrow-left"></i> Kembali ke Artikel
                     </button>
 
                     <!-- Judul Artikel -->
                     <h1 class="text-center fw-bold mb-4">
-                        lorem Ipsum Dolor 
+                        lorem Ipsum Dolor
                     </h1>
 
                     <!-- Gambar Utama -->
                     <div class="text-center mb-4">
-                        <img
-                            src="asset/departments-5.jpg"
-                            class="img-fluid rounded-3 shadow"
-                            alt="Artikel5"
-                        />
+                        <img src="asset/departments-5.jpg" class="img-fluid rounded-3 shadow" alt="Artikel5" />
                     </div>
 
                     <!-- Konten Artikel -->
@@ -1121,10 +990,8 @@
                         <div class="card-body text-muted">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <small
-                                        >Ditulis oleh:
-                                        <strong>Muhammad Farid Islamudin</strong></small
-                                    >
+                                    <small>Ditulis oleh:
+                                        <strong>Muhammad Farid Islamudin</strong></small>
                                 </div>
                                 <div class="col-md-6 text-md-end">
                                     <small>Tengaran, 20 April 2025</small>
@@ -1136,18 +1003,11 @@
             </div>
         </section>
         <!-- artikel 6 -->
-        <section
-            id="artikel6"
-            class="artikel-lengkap container mt-4"
-            style="display: none"
-        >
+        <section id="artikel6" class="artikel-lengkap container mt-4" style="display: none">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <!-- Tombol Kembali -->
-                    <button
-                        class="btn btn-outline-secondary mb-4"
-                        onclick="kembali()"
-                    >
+                    <button class="btn btn-outline-secondary mb-4" onclick="kembali()">
                         <i class="bi bi-arrow-left"></i> Kembali ke Artikel
                     </button>
 
@@ -1158,11 +1018,7 @@
 
                     <!-- Gambar Utama -->
                     <div class="text-center mb-4">
-                        <img
-                            src="asset/departments-6.png"
-                            class="img-fluid rounded-3 shadow"
-                            alt="Artikel6"
-                        />
+                        <img src="asset/departments-6.png" class="img-fluid rounded-3 shadow" alt="Artikel6" />
                     </div>
 
                     <!-- Konten Artikel -->
@@ -1290,10 +1146,8 @@
                         <div class="card-body text-muted">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <small
-                                        >Ditulis oleh:
-                                        <strong>Muhammad Farid Islamudin</strong></small
-                                    >
+                                    <small>Ditulis oleh:
+                                        <strong>Muhammad Farid Islamudin</strong></small>
                                 </div>
                                 <div class="col-md-6 text-md-end">
                                     <small>Tengaran, 20 April 2025</small>
@@ -1304,129 +1158,92 @@
                 </div>
             </div>
         </section>
-        </section>
-        <!-- end artikel lengkap -->
+    </section>
+    <!-- end artikel lengkap -->
 
-        <!-- footer -->
-        <footer class="bg-light text-dark py-5 mt-5 border-top shadow-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <img
-                            src="/asset/logo.png"
-                            alt="Logo"
-                            class="mb-3"
-                            style="height: 60px"
-                        />
-                        <p class="text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Tenetur deleniti saepe consequatur dolor,
-                            suscipit magni reiciendis eum mollitia.
-                        </p>
-                        <div class="social-icons d-flex gap-3">
-                            <a
-                                href="#"
-                                class="text-dark fs-5"
-                                aria-label="Facebook"
-                            >
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                            <a
-                                href="#"
-                                class="text-dark fs-5"
-                                aria-label="Instagram"
-                            >
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a
-                                href="#"
-                                class="text-dark fs-5"
-                                aria-label="Twitter"
-                            >
-                                <i class="fa-brands fa-x-twitter"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Link Navigasi -->
-                    <div class="col-md-2 mb-4">
-                        <h5 class="text-dark mb-3">Link</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a
-                                    class="text-muted text-decoration-none d-block mb-2"
-                                    href="index.html"
-                                    >Beranda</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="text-muted text-decoration-none d-block mb-2"
-                                    href="about.html"
-                                    >Tentang Kami</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="text-muted text-decoration-none d-block mb-2"
-                                    href="services.html"
-                                    >Layanan</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="text-muted text-decoration-none d-block mb-2"
-                                    href="healtharticles.html"
-                                    >Artikel Kesehatan</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="text-muted text-decoration-none d-block"
-                                    href="contact.html"
-                                    >Hubungi Kami</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-3 mb-4">
-                        <h5 class="text-dark mb-3">Kontak Kami</h5>
-                        <ul class="list-unstyled text-muted">
-                            <li class="mb-2">
-                                <i class="fa-solid fa-location-dot me-2"></i>
-                                Jl. Apatuh No. 123, Tengaran
-                            </li>
-                            <li class="mb-2">
-                                <i class="fa-solid fa-phone me-2"></i>
-                                1221
-                            </li>
-                            <li class="mb-2">
-                                <i class="fa-solid fa-envelope me-2"></i>
-                                Ridzz@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-3 mb-4">
-                        <h5 class="text-dark mb-3">Jam Operasional</h5>
-                        <ul class="list-unstyled text-muted">
-                            <li class="mb-2">Senin–Jumat: 08.00 – 21.00</li>
-                            <li class="mb-2">Sabtu–Minggu: 09.00 – 17.00</li>
-                        </ul>
-                        <a href="contact.html" class="btn btn-primary mt-3"
-                            >Hubungi Kami</a
-                        >
+    <!-- footer -->
+    <footer class="bg-light text-dark py-5 mt-5 border-top shadow-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="asset/logo.png" alt="Logo" class="mb-3" style="height: 60px" />
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Tenetur deleniti saepe consequatur dolor,
+                        suscipit magni reiciendis eum mollitia.
+                    </p>
+                    <div class="social-icons d-flex gap-3">
+                        <a href="#" class="text-dark fs-5" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-dark fs-5" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-dark fs-5" aria-label="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
                     </div>
                 </div>
 
-                <hr class="my-4" />
-                <div class="text-center text-muted small">
-                    &copy; 2025 Ridzz Medika. Seluruh hak cipta dilindungi.
+                <!-- Link Navigasi -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="text-dark mb-3">Link</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-muted text-decoration-none d-block mb-2" href="index.html">Beranda</a>
+                        </li>
+                        <li>
+                            <a class="text-muted text-decoration-none d-block mb-2" href="about.html">Tentang Kami</a>
+                        </li>
+                        <li>
+                            <a class="text-muted text-decoration-none d-block mb-2" href="services.html">Layanan</a>
+                        </li>
+                        <li>
+                            <a class="text-muted text-decoration-none d-block mb-2" href="healtharticles.html">Artikel
+                                Kesehatan</a>
+                        </li>
+                        <li>
+                            <a class="text-muted text-decoration-none d-block" href="contact.html">Hubungi Kami</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-dark mb-3">Kontak Kami</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li class="mb-2">
+                            <i class="fa-solid fa-location-dot me-2"></i>
+                            Jl. Apatuh No. 123, Tengaran
+                        </li>
+                        <li class="mb-2">
+                            <i class="fa-solid fa-phone me-2"></i>
+                            1221
+                        </li>
+                        <li class="mb-2">
+                            <i class="fa-solid fa-envelope me-2"></i>
+                            Ridzz@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-dark mb-3">Jam Operasional</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li class="mb-2">Senin–Jumat: 08.00 – 21.00</li>
+                        <li class="mb-2">Sabtu–Minggu: 09.00 – 17.00</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary mt-3">Hubungi Kami</a>
                 </div>
             </div>
-        </footer>
-        <!-- end footer -->
-        <script src="script.js"></script>
-    </body>
+
+            <hr class="my-4" />
+            <div class="text-center text-muted small">
+                &copy; 2025 Ridzz Medika. Seluruh hak cipta dilindungi.
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="script.js"></script>
+</body>
+
 </html>
